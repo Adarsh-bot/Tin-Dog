@@ -1,0 +1,226 @@
+/* HTML Elements */
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "montserrat";
+}
+
+
+p {
+    color: #8f8f8f;
+}
+
+/* headings */
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+}
+
+.section-heading {
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+
+/* Container section */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-items {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "montserrat";
+    font-weight: 300;
+}
+
+/* titile Section */
+
+
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title Images */
+
+.apple {
+    margin-bottom: 6px;
+}
+
+.google-play {
+    margin-bottom: 5px;
+}
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 21%;
+}
+
+
+/* fratures */
+#features {
+    position: relative;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.feature-heading {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.testimonial-text {
+    font-weight: bold;
+    font-size: 3.2rem;
+}
+
+
+/* press */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-text {
+    font-weight: bold;
+    font-size: 3.2rem;
+}
+
+.pricing-heading {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.hide-item {
+    visibility: hidden;
+}
+
+
+
+
+
+
+/* footer section */
+
+
+
+.footer-icon {
+    margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1000px) {
+
+    #title {
+        text-align: center;
+    }
+
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+
+    }
+}
